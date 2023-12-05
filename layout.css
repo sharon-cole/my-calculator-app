@@ -1,0 +1,126 @@
+root{
+    --Family: [Inter](https://fonts.google.com/specimen/Inter);
+    --Weights: 400, 700, 800;
+}
+
+@font-face{
+    font-family: inter-font;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-family: inter-font;
+}
+
+.close-btn{
+    display: none;
+}
+main {
+    max-width:960px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+.flex-hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.flex-hero img{
+    max-width: 100%;
+}
+.hero-sidenav{
+    margin-left: 20px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 15px;
+    line-height: 24px;
+}
+.hero-sidenav p {
+color: grey;
+border-bottom: 0.5px solid grey;
+padding-bottom: 10px;
+} 
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-p{
+    width: 50%;
+    font-size: 15px;
+    font-family:  sans-serif;
+    color: grey;
+}
+.flex-heading h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    width: 200px;
+    color: white;
+    background-color: hsl(5, 85%, 63%);
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+.hero-sidenav h3{
+    color: hsl(35, 77%, 62%);
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    margin-top: 20px;
+}
+
+section img{
+    width: 100px;
+    margin-right: 10px;
+}
+
+section .card{
+    display: flex;
+    width: 400px;
+    /*jushs;*/
+    align-items: center;
+}
+
+.special-number{
+    color: grey;
+    opacity: 0.5;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+section h4{
+    margin: 0;
+    line-height: 30ppx;
+}
+.lock{
+    overflow: hidden;
+}
+
+.backdrop{
+    display: flex;
+}
+
